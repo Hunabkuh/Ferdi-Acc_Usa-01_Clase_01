@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 1</title>
+</head>
+<!-- 1- NARRADOR (1)
+Crear desde cero una página que contenga:
+1- Menú de navegación: que haya una opción oculta que nos permita SALTAR el menú
+Que haya otra opción visible que nos permita ir a otro lugar de la página.
+
+2- Al menos dos imágenes. Describir el contenido de la imagen con ALT.
+
+3- Párrafos de texto antes y después de las imágenes. Pueden ser Lorem Ipsum
+Tener en cuenta las jerarquías y orden de la página HTML.
+
+Usar CSS para esconder vínculos que deben ser ocultos.
+Comprobar que se lee correctamente y da las opciones necesarias al activar el NARRADOR del sistema. -->
+<body>
+    <a href="#contenido" class="oculto">Pulsa enter para saltar el menú de navegación</a>
+
+    <nav id="cont-navBar">
+        <a class="boton-generico" href="index.html">Inicio</a>
+        <a class="boton-generico" href="#">Ciencia</a>
+        <a class="boton-generico" href="#">Guías de compra</a>
+        <a class="boton-generico" href="#">Libros</a>
+        <a class="boton-generico" href="#">Actualidad</a>
+    </nav>
+
+    <main class="cont-main">
+
+        <img class="imagen-generica" src="/Accesibilidad y usabilidad/01_Clase_01/Ejercicio-1/Img/eclipse1.jpg" alt="Foto de un eclipse total de sol dorado.">
+
+        <div class="div-titular">
+            <p>El Gran Eclipse Norteamericano. La Luna tiene dos tipos de sombra: una más tenue y extensa, llamada penumbra; y otra más oscura y estrecha, llamada umbra. El eclipse será parcial para las regiones que estén bajo la penumbra (donde el Sol quedará parcialmente cubierto por la Luna) y total para las regiones que estén bajo la umbra (donde el Sol quedará totalmente cubierto por la Luna).</p>
+
+            <img class="imagen-generica" src="/Accesibilidad y usabilidad/01_Clase_01/Ejercicio-1/Img/eclipse2.jpg" alt="Esquema colorido y explicado de cómo funciona un eclipse total de sol.">
+
+            <p>En definitiva, un eclipse solar es total cuando bloquea por completo la luz del Sol, pero esto solo ocurre en una zona específica y estrecha de la Tierra llamada banda de totalidad. No es infrecuente: hay un eclipse total de Sol cada 18 meses. Pero pasan en promedio 370 años antes de que vuelva a ocurrir en el mismo lugar. Y en este caso, la banda de totalidad pasará por regiones muy pobladas de Norteamérica, por lo que el evento se conoce como Gran Eclipse Norteamericano.</p>
+        </div>
+
+        <hr>
+
+        <!--------------------------------------------- -->
+
+    </main>
+
+    <section class="cont-section">
+
+        <h3>Qué le pasa a tus ojos si miras directamente un eclipse solar: pequeña guía para no terminar con una retinopatía</h3>
+
+        <img class="imagen-generica" src="/Accesibilidad y usabilidad/01_Clase_01/Ejercicio-1/Img/1200_800.jpg" alt="Dos chicas mirando al sol con gafas especiales"><hr>
+
+        <p>"Nada puede ser sorprendente, imposible o milagroso, ahora que Zeus [...] ha ocultando la luz del sol brillante. Un miedo que debilita el ánimo sobrevino a la  humanidad". Las palabras son de Arquíloco, un poeta griego arcaico que trataba de digerir el eclipse de sol que pudo ver con sus propios ojos el 6 de abril del 647 a.C. en la isla de Paros. "Después de esto, los hombres pueden creer y esperar cualquier cosa", continuaba.</p>
+
+        <img src="/Accesibilidad y usabilidad/01_Clase_01/Ejercicio-1/Img/eclipse3.jpg" alt="Foto de un eclipse total de sol, rojizo y centrado.">
+
+        <p>Y, aunque podemos entender la reacción de un Arquíloco sobrepasado por la realidad, no podemos estar de acuerdo. Justo cuando Zeus oculta la luz del sol es cuando más importante resulta creer al menos en una cosa: en la oftalmología.</p>
+
+    </section>
+
+    <hr>
+
+    <a class="boton-generico" href="#cont-navBar">Ir arriba</a>
+
+    <hr>
+
+    <footer class="cont-footer">
+        <div class="cont-div-footer">
+            <div class="div-footer"><a id="links-footer" href="#"><h5>© 2024 Hunabkuh Design</h5></a></div>
+            <div class="div-footer"><a id="links-footer" href="#"><h5>Términos/Condiciones de uso web</h5></a></div>
+            <div class="div-footer"><a id="links-footer" href="#"><h5>Política de privacidad</h5></a></div>
+        </div>
+    </footer>
+</body>
+</html>

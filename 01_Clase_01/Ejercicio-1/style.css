@@ -1,0 +1,102 @@
+.oculto {
+    position: relative;
+    left: -1000px;
+}
+
+body {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#cont-navBar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cont-main {
+    display: block;
+    text-align: center;
+}
+
+.div-titular {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    text-align: center;
+}
+
+.imagen-generica {
+    width: 800px;
+    height: auto;
+    text-align: center;
+}
+
+.cont-section {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 50px;
+}
+
+.cont-footer {
+    background-color: black;
+    color: yellow;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cont-div-footer {
+    display: flex;
+    gap: 100px;
+}
+
+.div-footer {
+    font-family: Calibri;
+
+}
+
+#links-footer {
+    color: yellow;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.boton-generico {
+    border-radius: 10px;
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.boton-generico:hover {
+    background-color: yellow;
+    padding: 15px;
+    color: black;
+}
+
+.boton-generico:active {
+    background-color: rgb(43, 0, 255);
+    padding: 15px;
+    color: rgb(249, 244, 110);
+}
